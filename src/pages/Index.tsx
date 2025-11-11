@@ -13,12 +13,14 @@ const Index = () => {
       {/* Header */}
       <header className="w-full py-12 md:py-20">
         <div className="container mx-auto px-4 text-center">
-          <div className="bg-card p-8 md:p-12 rounded-lg shadow-lg max-w-4xl mx-auto">
-            <h1 className="text-5xl md:text-7xl mb-4 text-card-foreground">Portafolio de Arte</h1>
-            <p className="text-lg md:text-xl text-muted-foreground">
+          <h1 className="text-5xl md:text-7xl mb-4">
+            <span className="text-highlight">Portafolio de Arte</span>
+          </h1>
+          <p className="text-lg md:text-xl">
+            <span className="text-highlight text-muted-foreground">
               Colección de obras contemporáneas que exploran forma, color y expresión
-            </p>
-          </div>
+            </span>
+          </p>
         </div>
       </header>
 
@@ -61,9 +63,11 @@ const Index = () => {
       {/* Footer */}
       <footer className="w-full py-12 mt-16">
         <div className="container mx-auto px-4 text-center">
-          <div className="bg-card p-6 rounded-lg shadow-lg max-w-2xl mx-auto">
-            <p className="text-card-foreground">© 2024 Portafolio de Arte. Todas las obras son propiedad del artista.</p>
-          </div>
+          <p>
+            <span className="text-highlight">
+              © 2024 Portafolio de Arte. Todas las obras son propiedad del artista.
+            </span>
+          </p>
         </div>
       </footer>
     </div>

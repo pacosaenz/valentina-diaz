@@ -98,4 +98,13 @@ All colors MUST be HSL.
   .smooth-transition {
     transition: var(--transition-smooth);
   }
+  
+  .text-highlight {
+    background-color: white;
+    padding: 0.25rem 0.5rem;
+    display: inline;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    line-height: 2;
+  }
 }

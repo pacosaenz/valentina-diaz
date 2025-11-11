@@ -19,10 +19,18 @@ export const ArtworkTwoColumn = ({ images, titles, descriptions, years }: Artwor
                 className="w-full h-auto object-cover hover:scale-105 smooth-transition"
               />
             </div>
-            <div className="bg-card p-6 rounded-lg shadow-lg">
-              <h2 className="text-2xl md:text-3xl mb-2 text-card-foreground">{titles[0]}</h2>
-              {years?.[0] && <p className="text-muted-foreground text-sm mb-3">{years[0]}</p>}
-              <p className="text-card-foreground/80 text-base leading-relaxed">{descriptions[0]}</p>
+            <div>
+              <h2 className="text-2xl md:text-3xl mb-2">
+                <span className="text-highlight">{titles[0]}</span>
+              </h2>
+              {years?.[0] && (
+                <p className="text-sm mb-3">
+                  <span className="text-highlight text-muted-foreground">{years[0]}</span>
+                </p>
+              )}
+              <p className="text-base leading-relaxed">
+                <span className="text-highlight text-foreground/80">{descriptions[0]}</span>
+              </p>
             </div>
           </div>
 
@@ -35,10 +43,18 @@ export const ArtworkTwoColumn = ({ images, titles, descriptions, years }: Artwor
                 className="w-full h-auto object-cover hover:scale-105 smooth-transition"
               />
             </div>
-            <div className="bg-card p-6 rounded-lg shadow-lg">
-              <h2 className="text-2xl md:text-3xl mb-2 text-card-foreground">{titles[1]}</h2>
-              {years?.[1] && <p className="text-muted-foreground text-sm mb-3">{years[1]}</p>}
-              <p className="text-card-foreground/80 text-base leading-relaxed">{descriptions[1]}</p>
+            <div>
+              <h2 className="text-2xl md:text-3xl mb-2">
+                <span className="text-highlight">{titles[1]}</span>
+              </h2>
+              {years?.[1] && (
+                <p className="text-sm mb-3">
+                  <span className="text-highlight text-muted-foreground">{years[1]}</span>
+                </p>
+              )}
+              <p className="text-base leading-relaxed">
+                <span className="text-highlight text-foreground/80">{descriptions[1]}</span>
+              </p>
             </div>
           </div>
         </div>
