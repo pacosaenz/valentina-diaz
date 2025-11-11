@@ -12,7 +12,7 @@ const Index = () => {
     <div className="min-h-screen">
       {/* Header */}
       <header className="w-full py-12 md:py-20">
-        <div className="container mx-auto px-4 text-center">
+        <div className="container mx-auto px-4">
           <h1 className="text-5xl md:text-7xl mb-4">
             <span className="text-highlight">Valentina Díaz</span>
           </h1>
@@ -62,7 +62,7 @@ const Index = () => {
 
       {/* Footer */}
       <footer className="w-full py-12 mt-16">
-        <div className="container mx-auto px-4 text-center">
+        <div className="container mx-auto px-4">
           <p>
             <span className="text-highlight">
               © 2024 Valentina Díaz. Todos los derechos reservados.

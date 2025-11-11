@@ -21,7 +21,7 @@ export const ArtworkSideBySide = ({
             !imageOnLeft ? "md:flex-row-reverse" : ""
           }`}
         >
-          <div className={`overflow-hidden rounded-lg ${!imageOnLeft ? "md:order-2" : ""}`}>
+          <div className={`overflow-hidden ${!imageOnLeft ? "md:order-2" : ""}`}>
             <img
               src={image}
               alt={title}

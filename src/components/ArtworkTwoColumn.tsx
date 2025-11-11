@@ -12,7 +12,7 @@ export const ArtworkTwoColumn = ({ images, titles, descriptions, years }: Artwor
         <div className="grid md:grid-cols-2 gap-8 md:gap-12">
           {/* First Column */}
           <div className="space-y-6">
-            <div className="overflow-hidden rounded-lg">
+            <div className="overflow-hidden">
               <img
                 src={images[0]}
                 alt={titles[0]}
@@ -36,7 +36,7 @@ export const ArtworkTwoColumn = ({ images, titles, descriptions, years }: Artwor
 
           {/* Second Column */}
           <div className="space-y-6">
-            <div className="overflow-hidden rounded-lg">
+            <div className="overflow-hidden">
               <img
                 src={images[1]}
                 alt={titles[1]}

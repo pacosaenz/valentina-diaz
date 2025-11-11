@@ -9,7 +9,7 @@ export const ArtworkFullWidth = ({ image, title, description, year }: ArtworkFul
   return (
     <section className="w-full py-16 md:py-24">
       <div className="container mx-auto px-4">
-        <div className="mb-8 text-center max-w-3xl mx-auto">
+        <div className="mb-8 max-w-3xl">
           <h2 className="text-3xl md:text-5xl mb-4">
             <span className="text-highlight">{title}</span>
           </h2>
@@ -22,7 +22,7 @@ export const ArtworkFullWidth = ({ image, title, description, year }: ArtworkFul
             <span className="text-highlight text-foreground/80">{description}</span>
           </p>
         </div>
-        <div className="overflow-hidden rounded-lg">
+        <div className="overflow-hidden">
           <img
             src={image}
             alt={title}
