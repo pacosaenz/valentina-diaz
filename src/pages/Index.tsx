@@ -14,11 +14,11 @@ const Index = () => {
       <header className="w-full py-12 md:py-20">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-5xl md:text-7xl mb-4">
-            <span className="text-highlight">Portafolio de Arte</span>
+            <span className="text-highlight">Valentina Díaz</span>
           </h1>
           <p className="text-lg md:text-xl">
             <span className="text-highlight text-muted-foreground">
-              Colección de obras contemporáneas que exploran forma, color y expresión
+              Artista Contemporánea
             </span>
           </p>
         </div>
@@ -65,7 +65,7 @@ const Index = () => {
         <div className="container mx-auto px-4 text-center">
           <p>
             <span className="text-highlight">
-              © 2024 Portafolio de Arte. Todas las obras son propiedad del artista.
+              © 2024 Valentina Díaz. Todos los derechos reservados.
             </span>
           </p>
         </div>
