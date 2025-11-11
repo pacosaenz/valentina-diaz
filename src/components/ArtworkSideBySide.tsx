@@ -28,10 +28,10 @@ export const ArtworkSideBySide = ({
               className="w-full h-auto object-cover hover:scale-105 smooth-transition"
             />
           </div>
-          <div className={`space-y-4 ${!imageOnLeft ? "md:order-1" : ""}`}>
-            <h2 className="text-3xl md:text-4xl">{title}</h2>
+          <div className={`space-y-4 bg-card p-8 rounded-lg shadow-lg ${!imageOnLeft ? "md:order-1" : ""}`}>
+            <h2 className="text-3xl md:text-4xl text-card-foreground">{title}</h2>
             {year && <p className="text-muted-foreground text-sm md:text-base">{year}</p>}
-            <p className="text-foreground/80 text-base md:text-lg leading-relaxed">{description}</p>
+            <p className="text-card-foreground/80 text-base md:text-lg leading-relaxed">{description}</p>
           </div>
         </div>
       </div>

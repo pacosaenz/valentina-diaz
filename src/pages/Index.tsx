@@ -11,12 +11,14 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       {/* Header */}
-      <header className="w-full py-12 md:py-20 border-b border-border">
+      <header className="w-full py-12 md:py-20">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-5xl md:text-7xl mb-4">Portafolio de Arte</h1>
-          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-            Colección de obras contemporáneas que exploran forma, color y expresión
-          </p>
+          <div className="bg-card p-8 md:p-12 rounded-lg shadow-lg max-w-4xl mx-auto">
+            <h1 className="text-5xl md:text-7xl mb-4 text-card-foreground">Portafolio de Arte</h1>
+            <p className="text-lg md:text-xl text-muted-foreground">
+              Colección de obras contemporáneas que exploran forma, color y expresión
+            </p>
+          </div>
         </div>
       </header>
 
@@ -28,8 +30,6 @@ const Index = () => {
         year="2024"
       />
 
-      <div className="w-full border-t border-border" />
-
       {/* Artwork 2 - Side by Side */}
       <ArtworkSideBySide
         image={artwork2}
@@ -38,8 +38,6 @@ const Index = () => {
         year="2023"
         imageOnLeft={true}
       />
-
-      <div className="w-full border-t border-border" />
 
       {/* Artworks 3 & 4 - Two Columns */}
       <ArtworkTwoColumn
@@ -52,8 +50,6 @@ const Index = () => {
         years={["2024", "2023"]}
       />
 
-      <div className="w-full border-t border-border" />
-
       {/* Artwork 5 - Full Width */}
       <ArtworkFullWidth
         image={artwork5}
@@ -63,9 +59,11 @@ const Index = () => {
       />
 
       {/* Footer */}
-      <footer className="w-full py-12 border-t border-border mt-16">
+      <footer className="w-full py-12 mt-16">
         <div className="container mx-auto px-4 text-center">
-          <p className="text-muted-foreground">© 2024 Portafolio de Arte. Todas las obras son propiedad del artista.</p>
+          <div className="bg-card p-6 rounded-lg shadow-lg max-w-2xl mx-auto">
+            <p className="text-card-foreground">© 2024 Portafolio de Arte. Todas las obras son propiedad del artista.</p>
+          </div>
         </div>
       </footer>
     </div>

@@ -19,10 +19,10 @@ export const ArtworkTwoColumn = ({ images, titles, descriptions, years }: Artwor
                 className="w-full h-auto object-cover hover:scale-105 smooth-transition"
               />
             </div>
-            <div>
-              <h2 className="text-2xl md:text-3xl mb-2">{titles[0]}</h2>
+            <div className="bg-card p-6 rounded-lg shadow-lg">
+              <h2 className="text-2xl md:text-3xl mb-2 text-card-foreground">{titles[0]}</h2>
               {years?.[0] && <p className="text-muted-foreground text-sm mb-3">{years[0]}</p>}
-              <p className="text-foreground/80 text-base leading-relaxed">{descriptions[0]}</p>
+              <p className="text-card-foreground/80 text-base leading-relaxed">{descriptions[0]}</p>
             </div>
           </div>
 
@@ -35,10 +35,10 @@ export const ArtworkTwoColumn = ({ images, titles, descriptions, years }: Artwor
                 className="w-full h-auto object-cover hover:scale-105 smooth-transition"
               />
             </div>
-            <div>
-              <h2 className="text-2xl md:text-3xl mb-2">{titles[1]}</h2>
+            <div className="bg-card p-6 rounded-lg shadow-lg">
+              <h2 className="text-2xl md:text-3xl mb-2 text-card-foreground">{titles[1]}</h2>
               {years?.[1] && <p className="text-muted-foreground text-sm mb-3">{years[1]}</p>}
-              <p className="text-foreground/80 text-base leading-relaxed">{descriptions[1]}</p>
+              <p className="text-card-foreground/80 text-base leading-relaxed">{descriptions[1]}</p>
             </div>
           </div>
         </div>
