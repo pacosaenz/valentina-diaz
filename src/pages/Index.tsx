@@ -12,8 +12,8 @@ const Index = () => {
     <div className="min-h-screen">
       {/* Fixed Left Sidebar */}
       <div className="fixed left-0 top-1/2 -translate-y-1/2 w-[100px] h-[75vh] bg-black z-50 flex items-center justify-center">
-        <span className="text-2xl font-light tracking-wider whitespace-nowrap" style={{ writingMode: 'vertical-rl', transform: 'rotate(180deg)' }}>
-          Valentina_Diaz
+        <span className="text-white text-2xl font-light tracking-wider whitespace-nowrap" style={{ writingMode: 'vertical-rl', transform: 'rotate(180deg)' }}>
+          Valentina_Díaz
         </span>
       </div>
 
