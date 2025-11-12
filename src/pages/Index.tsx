@@ -2,6 +2,7 @@ import { ArtworkFullWidth } from "@/components/ArtworkFullWidth";
 import { ArtworkSideBySide } from "@/components/ArtworkSideBySide";
 import { ArtworkTwoColumn } from "@/components/ArtworkTwoColumn";
 import { Youtube } from "lucide-react";
+import { Video } from "lucide-react";
 import artwork1 from "@/assets/artwork-1.jpg";
 import artwork2 from "@/assets/artwork-2.jpg";
 import artwork3 from "@/assets/artwork-3.jpg";
@@ -16,14 +17,24 @@ const Index = () => {
         <span className="text-white text-2xl font-light tracking-wider whitespace-nowrap" style={{ writingMode: 'vertical-rl', transform: 'rotate(180deg)' }}>
           Valentina_Díaz
         </span>
-        <a 
-          href="https://www.youtube.com/@valentinadiaz3433" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="text-white hover:opacity-70 smooth-transition"
-        >
-          <Youtube size={28} />
-        </a>
+        <div className="flex flex-col gap-4 items-center">
+          <a 
+            href="https://vimeo.com/valentinadiaz" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-white hover:opacity-70 smooth-transition"
+          >
+            <Video size={28} />
+          </a>
+          <a 
+            href="https://www.youtube.com/@valentinadiaz3433" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-white hover:opacity-70 smooth-transition"
+          >
+            <Youtube size={28} />
+          </a>
+        </div>
       </div>
 
       {/* Header */}
