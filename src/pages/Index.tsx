@@ -1,6 +1,7 @@
 import { ArtworkFullWidth } from "@/components/ArtworkFullWidth";
 import { ArtworkSideBySide } from "@/components/ArtworkSideBySide";
 import { ArtworkTwoColumn } from "@/components/ArtworkTwoColumn";
+import { Youtube } from "lucide-react";
 import artwork1 from "@/assets/artwork-1.jpg";
 import artwork2 from "@/assets/artwork-2.jpg";
 import artwork3 from "@/assets/artwork-3.jpg";
@@ -11,10 +12,18 @@ const Index = () => {
   return (
     <div className="min-h-screen pl-[50px]">
       {/* Fixed Left Sidebar */}
-      <div className="fixed left-0 top-0 w-[50px] h-[75vh] bg-black z-50 flex items-start justify-center pt-8">
+      <div className="fixed left-0 top-0 w-[50px] h-[75vh] bg-black z-50 flex flex-col items-center justify-between py-8">
         <span className="text-white text-2xl font-light tracking-wider whitespace-nowrap" style={{ writingMode: 'vertical-rl', transform: 'rotate(180deg)' }}>
           Valentina_Díaz
         </span>
+        <a 
+          href="https://www.youtube.com/@valentinadiaz3433" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-white hover:opacity-70 smooth-transition"
+        >
+          <Youtube size={28} />
+        </a>
       </div>
 
       {/* Header */}
