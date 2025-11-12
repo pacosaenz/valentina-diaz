@@ -101,10 +101,10 @@ All colors MUST be HSL.
   
   .text-highlight {
     background-color: white;
-    padding: 0.25rem 0.5rem;
+    padding: 0.05rem 0.15rem;
     display: inline;
     box-decoration-break: clone;
     -webkit-box-decoration-break: clone;
-    line-height: 2;
+    line-height: 1.6;
   }
 }
