@@ -1,6 +1,7 @@
 import { ArtworkFullWidth } from "@/components/ArtworkFullWidth";
 import { ArtworkSideBySide } from "@/components/ArtworkSideBySide";
 import { ArtworkTwoColumn } from "@/components/ArtworkTwoColumn";
+import { VideoFullWidth } from "@/components/VideoFullWidth";
 import { Youtube, Video, Instagram } from "lucide-react";
 import artwork1 from "@/assets/artwork-1.jpg";
 import artwork2 from "@/assets/artwork-2.jpg";
@@ -91,6 +92,14 @@ const Index = () => {
         image={artwork5}
         title="Textura Dorada"
         description="Pintura texturizada con pan de oro que explora la interacción entre lo orgánico y lo precioso. Las capas de pigmento crean profundidad y complejidad visual."
+        year="2024"
+      />
+
+      {/* Video Project */}
+      <VideoFullWidth
+        videoId="868457694"
+        title="Proyecto Audiovisual"
+        description="Una exploración multimedia que combina arte visual y narrativa cinematográfica, capturando momentos de transformación y movimiento."
         year="2024"
       />
 
