@@ -1,8 +1,7 @@
 import { ArtworkFullWidth } from "@/components/ArtworkFullWidth";
 import { ArtworkSideBySide } from "@/components/ArtworkSideBySide";
 import { ArtworkTwoColumn } from "@/components/ArtworkTwoColumn";
-import { Youtube } from "lucide-react";
-import { Video } from "lucide-react";
+import { Youtube, Video, Instagram } from "lucide-react";
 import artwork1 from "@/assets/artwork-1.jpg";
 import artwork2 from "@/assets/artwork-2.jpg";
 import artwork3 from "@/assets/artwork-3.jpg";
@@ -22,15 +21,23 @@ const Index = () => {
             href="https://vimeo.com/valentinadiaz" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="text-white hover:opacity-70 smooth-transition"
+            className="text-muted-foreground hover:opacity-70 smooth-transition"
           >
             <Video size={28} />
+          </a>
+          <a 
+            href="https://www.instagram.com/valentinaaaaaahh" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-muted-foreground hover:opacity-70 smooth-transition"
+          >
+            <Instagram size={28} />
           </a>
           <a 
             href="https://www.youtube.com/@valentinadiaz3433" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="text-white hover:opacity-70 smooth-transition"
+            className="text-muted-foreground hover:opacity-70 smooth-transition"
           >
             <Youtube size={28} />
           </a>
