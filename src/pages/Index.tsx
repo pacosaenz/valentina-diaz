@@ -21,13 +21,13 @@ const Index = () => {
         </span>
         <div className="flex flex-col gap-4 items-center">
           <a href="https://vimeo.com/valentinadiaz" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:opacity-70 smooth-transition">
-            <Video size={28} />
+            <Video size={21} />
           </a>
           <a href="https://www.instagram.com/valentinaaaaaahh" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:opacity-70 smooth-transition">
-            <Instagram size={28} />
+            <Instagram size={21} />
           </a>
           <a href="https://www.youtube.com/@valentinadiaz3433" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:opacity-70 smooth-transition">
-            <Youtube size={28} />
+            <Youtube size={21} />
           </a>
         </div>
       </div>
