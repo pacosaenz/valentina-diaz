@@ -3,6 +3,7 @@ import { ArtworkSideBySide } from "@/components/ArtworkSideBySide";
 import { ArtworkTwoColumn } from "@/components/ArtworkTwoColumn";
 import { VideoFullWidth } from "@/components/VideoFullWidth";
 import { YouTubeFullWidth } from "@/components/YouTubeFullWidth";
+import { CVSection } from "@/components/CVSection";
 import { Youtube, Video, Instagram } from "lucide-react";
 import artwork1 from "@/assets/artwork-1.jpg";
 import artwork2 from "@/assets/artwork-2.jpg";
@@ -32,8 +33,8 @@ const Index = () => {
         </div>
       </div>
 
-      {/* Header */}
-      
+      {/* CV Section */}
+      <CVSection />
 
       {/* Artwork 1 - Full Width */}
       <ArtworkFullWidth image={artwork1} title="Flujo Abstracto" description="Una exploración de formas orgánicas y color, esta pieza captura el movimiento y la energía del océano a través de capas superpuestas de pintura acrílica." year="2024" />
