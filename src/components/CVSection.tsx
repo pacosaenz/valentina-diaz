@@ -4,7 +4,7 @@ export const CVSection = ({}: CVSectionProps) => {
   return (
     <section className="w-full py-16 md:py-24">
       <div className="container mx-auto px-4">
-        <h1 className="text-4xl md:text-5xl font-light mb-12">
+        <h1 className="text-2xl md:text-3xl font-bold mb-12">
           <span className="text-highlight">CV Valentina Díaz</span>
         </h1>
         
