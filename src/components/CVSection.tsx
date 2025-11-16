@@ -12,7 +12,7 @@ export const CVSection = ({}: CVSectionProps) => {
           {/* Columna 1 */}
           <div className="space-y-8">
             <div>
-              <p className="text-lg mb-8 leading-tight">
+              <p className="text-lg mb-8 leading-none">
                 <span className="text-highlight text-muted-foreground">
                   1985 Tucumán, Argentina - Ciudad de México, México
                 </span>
@@ -20,10 +20,10 @@ export const CVSection = ({}: CVSectionProps) => {
             </div>
 
             <div>
-              <h2 className="text-2xl font-light mb-4 leading-tight">
+              <h2 className="text-2xl font-light mb-4 leading-none">
                 <span className="text-highlight">Formación</span>
               </h2>
-              <ul className="space-y-3 leading-tight">
+              <ul className="space-y-3 leading-none">
                 <li><span className="text-highlight text-muted-foreground">- Maestría en Artes Visuales (Universidad Nacional Autónoma de México, México, 2023)</span></li>
                 <li><span className="text-highlight text-muted-foreground">- Licenciatura en Artes Plásticas (Universidad Nacional de Tucumán, Argentina, 2011)</span></li>
                 <li><span className="text-highlight text-muted-foreground">- Posgrado en Diseño de Indumentaria (Universidad Nacional de Tucumán, Argentina, 2014)</span></li>
@@ -32,10 +32,10 @@ export const CVSection = ({}: CVSectionProps) => {
             </div>
 
             <div>
-              <h2 className="text-2xl font-light mb-4 leading-tight">
+              <h2 className="text-2xl font-light mb-4 leading-none">
                 <span className="text-highlight">Becas y Premios</span>
               </h2>
-              <ul className="space-y-3 leading-tight">
+              <ul className="space-y-3 leading-none">
                 <li><span className="text-highlight text-muted-foreground">- Beca Nacional para Estudios de Posgrado (CONACYT, México 2022-2023)</span></li>
                 <li><span className="text-highlight text-muted-foreground">- Beca de Movilidad para Estancia de Investigación (UNAM, México 2023)</span></li>
                 <li><span className="text-highlight text-muted-foreground">- Patrocinio de Publicación (Fundación Jumex Arte Contemporáneo, México 2020)</span></li>
@@ -57,10 +57,10 @@ export const CVSection = ({}: CVSectionProps) => {
           {/* Columna 2 */}
           <div className="space-y-8">
             <div>
-              <h2 className="text-2xl font-light mb-4 leading-tight">
+              <h2 className="text-2xl font-light mb-4 leading-none">
                 <span className="text-highlight">Residencias</span>
               </h2>
-              <ul className="space-y-3 leading-tight">
+              <ul className="space-y-3 leading-none">
                 <li><span className="text-highlight text-muted-foreground">- Materia Gris (La Paz, Bolivia, 2023)</span></li>
                 <li><span className="text-highlight text-muted-foreground">- Pivô Pesquisa (São Paulo, Brasil, 2022)</span></li>
                 <li><span className="text-highlight text-muted-foreground">- Flora ars+natura (Bogotá, Colombia, 2019)</span></li>
@@ -68,10 +68,10 @@ export const CVSection = ({}: CVSectionProps) => {
             </div>
 
             <div>
-              <h2 className="text-2xl font-light mb-4 leading-tight">
+              <h2 className="text-2xl font-light mb-4 leading-none">
                 <span className="text-highlight">Publicaciones</span>
               </h2>
-              <ul className="space-y-3 leading-tight">
+              <ul className="space-y-3 leading-none">
                 <li><span className="text-highlight text-muted-foreground">- La trayectoria intermedial del gesto (Ciudad de México, México, Silvestre, 2024).</span></li>
                 <li><span className="text-highlight text-muted-foreground">- La habitación de la lengua o la lengua de la habitación (Ciudad de México, México, Silvestre, 2021). Proyecto en colaboración con Iván Martínez.</span></li>
                 <li><span className="text-highlight text-muted-foreground">- Cuerpo hablante (CDMX, México, ESPAC, 2023). Participación en el libro colectivo editado por nohacernada.org</span></li>
