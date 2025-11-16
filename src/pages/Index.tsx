@@ -59,7 +59,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <p>
             <span className="text-highlight">
-              © 2024 Valentina Díaz. Todos los derechos reservados.
+              © 2025 Valentina Díaz. Todos los derechos reservados.
             </span>
           </p>
         </div>
