@@ -18,18 +18,23 @@ jobs:
         run: |
           node -v
           npm -v
-      - name: List node_modules/.bin
+      - name: List node_modules/.bin (debug)
         run: ls -la node_modules/.bin || true
-      - name: Check tailwind executable (debug)
+      - name: Show if tailwind is installed (debug)
         run: |
-          # Try npm exec (recommended)
-          npm exec tailwindcss -- --version || \
-          # fallback to npx
-          npx tailwindcss -v || \
-          # list files in node_modules to help debug
-          ls -la node_modules | sed -n '1,200p'
-      - name: Build CSS
-        run: npm run build:css
+          echo "npm list tailwindcss (depth 0):"
+          npm ls tailwindcss --depth=0 || true
+          echo "Check package-lock for tailwind entry:"
+          grep -n "\"tailwindcss\"" package-lock.json || true
+      - name: Build CSS (try local bin, then fallback to npx -p)
+        run: |
+          # Prefer local bin if available
+          if [ -x ./node_modules/.bin/tailwindcss ]; then
+            ./node_modules/.bin/tailwindcss -i ./src/styles/tailwind.css -o ./dist/styles.css --minify
+          else
+            # Fallback: use npx to fetch/execute tailwindcss if it's not present
+            npx -p tailwindcss tailwindcss -i ./src/styles/tailwind.css -o ./dist/styles.css --minify
+          fi
       - uses: actions/upload-artifact@v4
         with:
           name: dist
