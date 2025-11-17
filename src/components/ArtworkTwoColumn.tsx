@@ -20,9 +20,9 @@ export const ArtworkTwoColumn = ({ images, titles, descriptions, years }: Artwor
               />
             </div>
             <div>
-              <h2 className="text-2xl md:text-3xl mb-2">
+              <h3 className="text-2xl md:text-3xl mb-2">
                 <span className="text-highlight">{titles[0]}</span>
-              </h2>
+              </h3>
               {years?.[0] && (
                 <p className="text-sm mb-3">
                   <span className="text-highlight text-muted-foreground">{years[0]}</span>
