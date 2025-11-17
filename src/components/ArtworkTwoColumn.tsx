@@ -25,7 +25,7 @@ export const ArtworkTwoColumn = ({ images, titles, descriptions, years }: Artwor
               </h2>
               {years?.[0] && (
                 <p className="text-sm mb-3">
-                  <span className="text-highlight text-muted-foreground">{years[0]}</span>
+                  <span className="text-highlight text-muted-foreground font-bold">{years[0]}</span>
                 </p>
               )}
               <p className="text-base leading-relaxed">
@@ -49,7 +49,7 @@ export const ArtworkTwoColumn = ({ images, titles, descriptions, years }: Artwor
               </h2>
               {years?.[1] && (
                 <p className="text-sm mb-3">
-                  <span className="text-highlight text-muted-foreground">{years[1]}</span>
+                  <span className="text-highlight text-muted-foreground font-bold">{years[1]}</span>
                 </p>
               )}
               <p className="text-base leading-relaxed">
