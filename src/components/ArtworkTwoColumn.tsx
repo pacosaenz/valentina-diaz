@@ -5,7 +5,7 @@ interface ArtworkTwoColumnProps {
   years?: [string?, string?];
 }
 
-export const ArtworkTwoColumn = ({ images, titles, descriptions, years }: ArtworkTwoColumnProps) => {
+export const ArtworkTwoColumn = ({ titles, descriptions, years }: ArtworkTwoColumnProps) => {
   return (
     <section className="w-full py-16 md:py-24">
       <div className="container mx-auto px-4">
