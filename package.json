@@ -1,13 +1,16 @@
 {
+  "name": "gallery-scroll-layout",
+  "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/styles/tailwind.css -o ./dist/styles.css --watch",
-    "build:css": "npx tailwindcss -i ./src/styles/tailwind.css -o ./dist/styles.css --minify"
+    "dev": "npm exec tailwindcss -- -i ./src/styles/tailwind.css -o ./dist/styles.css --watch",
+    "build:css": "npm exec tailwindcss -- -i ./src/styles/tailwind.css -o ./dist/styles.css --minify"
   },
   "devDependencies": {
     "tailwindcss": "^4.1.17",
-    "@tailwindcss/forms": "^0.5.10",
-    "@tailwindcss/typography": "^0.5.16",
     "autoprefixer": "^10.0.0",
-    "postcss": "^8.0.0"
+    "postcss": "^8.0.0",
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.16"
   }
 }
