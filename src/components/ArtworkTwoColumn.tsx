@@ -12,13 +12,7 @@ export const ArtworkTwoColumn = ({ titles, descriptions, years }: ArtworkTwoColu
         <div className="grid md:grid-cols-2 gap-8 md:gap-12">
           {/* First Column */}
           <div className="space-y-6">
-            <div className="overflow-hidden">
-              <img
-                src={images[0]}
-                alt={titles[0]}
-                className="w-full h-auto object-cover hover:scale-105 smooth-transition"
-              />
-            </div>
+
             <div>
               <h2 className="text-2xl mb-2 font-bold">
                 <span className="text-highlight">{titles[0]}</span>
