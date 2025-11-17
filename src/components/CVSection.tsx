@@ -21,7 +21,7 @@ export const CVSection = ({}: CVSectionProps) => {
 
             <div>
               <h2 className="text-2xl font-light mb-4 leading-none">
-                <span className="text-highlight">Formación</span>
+                <span className="text-highlight font-bold">Formación</span>
               </h2>
               <ul className="space-y-3 leading-none">
                 <li><span className="text-highlight text-muted-foreground">- Maestría en Artes Visuales (Universidad Nacional Autónoma de México, México, 2023)</span></li>
