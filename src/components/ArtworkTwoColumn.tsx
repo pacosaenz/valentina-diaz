@@ -44,7 +44,7 @@ export const ArtworkTwoColumn = ({ images, titles, descriptions, years }: Artwor
               />
             </div>
             <div>
-              <h2 className="text-2xl md:text-3xl mb-2 font-bold">
+              <h2 className="text-2xl mb-2 font-bold">
                 <span className="text-highlight">{titles[1]}</span>
               </h2>
               {years?.[1] && (
