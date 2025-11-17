@@ -48,6 +48,10 @@ const Index = () => {
       {/* Artwork 5 - Full Width */}
       <ArtworkFullWidth image={artwork5} title="Textura Dorada" description="Pintura texturizada con pan de oro que explora la interacción entre lo orgánico y lo precioso. Las capas de pigmento crean profundidad y complejidad visual." year="2024" />
 
+      {/* Artwork 6 - Full Width */}
+      <ArtworkFullWidth image={artwork1} title="Flujo Abstracto" description="Una exploración de formas orgánicas y color, esta pieza captura el movimiento y la energía del océano a través de capas superpuestas de pintura acrílica." year="2024" />
+
+    
       {/* Video Project - Vimeo */}
       <VideoFullWidth videoId="868457694" title="Proyecto Audiovisual" description="Una exploración multimedia que combina arte visual y narrativa cinematográfica, capturando momentos de transformación y movimiento." year="2024" />
 
