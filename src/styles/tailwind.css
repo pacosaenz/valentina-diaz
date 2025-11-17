@@ -1,4 +1,6 @@
 @tailwind base;
+@plugin "@tailwindcss/forms";
+@plugin "@tailwindcss/typography";
 @tailwind components;
 @tailwind utilities;
 
