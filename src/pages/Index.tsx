@@ -37,11 +37,7 @@ const Index = () => {
       <CVSection />
 
       {/* Ojo que mira - Two Columns */}
-      <ArtworkTwoColumn images={[artwork3, artwork4]} titles={["Ojo mira a Ojo porque Ojo lo está mirando
-2025
-Performance", "Eye looks at Eye because Eye is looking at it
-2025
-Performance"]} descriptions={["Arte digital que combina técnicas tradicionales con tecnología moderna. Los gradientes fluidos crean una sensación de movimiento perpetuo.", "Una reinterpretación fotográfica de la vida urbana, donde los colores saturados y la composición dinámica capturan la energía de la ciudad."]} years={["2024", "2023"]} />
+      <ArtworkTwoColumn images={[artwork3, artwork4]} titles={["Ojo mira a Ojo porque Ojo lo está mirando 2025 Performance", "Eye looks at Eye because Eye is looking at it 2025 Performance"]} descriptions={["Arte digital que combina técnicas tradicionales con tecnología moderna. Los gradientes fluidos crean una sensación de movimiento perpetuo.", "Una reinterpretación fotográfica de la vida urbana, donde los colores saturados y la composición dinámica capturan la energía de la ciudad."]} years={["2024", "2023"]} />
     
       {/* Artwork 1 - Full Width */}
       <ArtworkFullWidth image={artwork1} title="Flujo Abstracto" description="Una exploración de formas orgánicas y color, esta pieza captura el movimiento y la energía del océano a través de capas superpuestas de pintura acrílica." year="2024" />
