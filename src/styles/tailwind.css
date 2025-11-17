@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Componentes personalizados */
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-md font-semibold bg-brand-500 text-white hover:bg-brand-700;
+  }
+}
+
+/* Utilidades adicionales */
+@layer utilities {
+  .skew-10 { transform: skewY(-10deg); }
+}
